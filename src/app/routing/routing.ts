@@ -5,7 +5,7 @@ import { UserListComponent } from 'app/user-list/user-list.component';
 
 
 const routes: Routes = [
-   {path:'',redirectTo:'/login', pathMatch:'full'},
+   {path:'login',redirectTo:'/login', pathMatch:'full'},
 {path:'login', component:UserDataComponent},
 {path:'list', component:UserListComponent},
 ];
