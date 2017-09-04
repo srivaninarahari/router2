@@ -11,6 +11,7 @@ import { UserDataComponent } from './user-data/user-data.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { ListService } from 'app/service/list.service';
 import { routedComponents } from 'app/routing/routing';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { routedComponents } from 'app/routing/routing';
     CapitalizePipe,
     SearchByPipe,
     UserDataComponent,
-    UserListComponent
+    UserListComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
